@@ -1,0 +1,16 @@
+// .eslintrc.json
+{
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  }
+  
+  // .prettierrc.json
+  {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }

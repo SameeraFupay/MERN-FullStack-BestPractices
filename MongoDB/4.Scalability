@@ -1,0 +1,2 @@
+sh.enableSharding("mydb");
+sh.shardCollection("mydb.users", {"username": 1});

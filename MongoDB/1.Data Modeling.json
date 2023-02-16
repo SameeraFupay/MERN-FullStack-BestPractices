@@ -1,0 +1,23 @@
+{
+    "_id": ObjectId("5f4d6437f65d867c0f5c2e2f"),
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    "orders": [
+      {
+        "order_number": "001",
+        "total": 100.00,
+        "date": ISODate("2022-01-01T00:00:00Z")
+      },
+      {
+        "order_number": "002",
+        "total": 200.00,
+        "date": ISODate("2022-02-01T00:00:00Z")
+      }
+    ]
+  }
